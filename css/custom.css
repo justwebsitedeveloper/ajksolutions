@@ -1,0 +1,24 @@
+/* your styles go here */
+
+.custom_nav {
+  height: 80px;
+}
+.h5 {
+  color: black;
+}
+@media screen and (max-width: 992px) {
+  .custom_nav {
+    height: fit-content;
+  }
+
+  /* .py-3 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    } */
+}
+
+@media screen and (max-width: 405px) {
+  .customer_fea h5 {
+    font-size: 16px;
+  }
+}
